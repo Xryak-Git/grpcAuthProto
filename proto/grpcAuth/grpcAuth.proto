@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package auth;
 
-option go_package = "xryak.grpcAuth.v1;grpcAuthv1";
+option go_package = "xryak.grpcAuth.v1;grpcAuth";
 
 service Auth {
   rpc Register (RegisterRequest) returns (RegisterResponse);
